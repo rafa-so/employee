@@ -4,13 +4,17 @@
   "description": "Projeto criado para aprender mais profundamente react e next.js. Para isso, vou usar um problema real.",
   "main": "index.js",
   "scripts": {
-    "start:crud": "nodemon ./core/index.js",
-    "dev:crud": "", 
+    "start:crud": "npx ts-node ./core/index.ts",
+    "dev:crud": "nodemon --ext ts,tsx --exec \"npm run start:crud\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.5.6",
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
   }
 }
