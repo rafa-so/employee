@@ -4,8 +4,13 @@
   "description": "Projeto criado para aprender mais profundamente react e next.js. Para isso, vou usar um problema real.",
   "main": "index.js",
   "scripts": {
+    "start:crud": "nodemon ./core/index.js",
+    "dev:crud": "", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
